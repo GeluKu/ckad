@@ -18,15 +18,17 @@ spec:
           env:
             - name: API_URL
               value: http://api.kubernetes.docker.internal
+            - name: NODE_OPTIONS
+              value: --openssl-legacy-provider
           image: pluralsight_vue:latest
           imagePullPolicy: Never # only for local testing
           readinessProbe:
             httpGet:
-              path: /
+              path: / 
               port: server
           livenessProbe:
             httpGet:
-              path: /
+              path: / 
               port: server
           ports:
             - name: server

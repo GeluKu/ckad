@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/KINGSTON/Dropbox/Projects/GitHub/Courses/ckad/3 Application Observability and Maintenance/3 Implementing Probs and Health Checks/health-probes/health-probes.csproj": {}
+    "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj": {}
   },
   "projects": {
-    "/Volumes/KINGSTON/Dropbox/Projects/GitHub/Courses/ckad/3 Application Observability and Maintenance/3 Implementing Probs and Health Checks/health-probes/health-probes.csproj": {
+    "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/KINGSTON/Dropbox/Projects/GitHub/Courses/ckad/3 Application Observability and Maintenance/3 Implementing Probs and Health Checks/health-probes/health-probes.csproj",
+        "projectUniqueName": "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
         "projectName": "health-probes",
-        "projectPath": "/Volumes/KINGSTON/Dropbox/Projects/GitHub/Courses/ckad/3 Application Observability and Maintenance/3 Implementing Probs and Health Checks/health-probes/health-probes.csproj",
-        "packagesPath": "/Users/danwahlin/.nuget/packages/",
-        "outputPath": "/Volumes/KINGSTON/Dropbox/Projects/GitHub/Courses/ckad/3 Application Observability and Maintenance/3 Implementing Probs and Health Checks/health-probes/obj/",
+        "projectPath": "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
+        "packagesPath": "/home/gelu/.nuget/packages/",
+        "outputPath": "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/danwahlin/.nuget/NuGet/NuGet.Config"
+          "/home/gelu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -51,6 +48,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -59,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/RuntimeIdentifierGraph.json"
         }
       }
     }
