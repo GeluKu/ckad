@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: busybox-probes
-    image: k8s.gcr.io/busybox
+    image: busybox:stable-musl
     resources:
       limits:
         memory: "64Mi" #64 MB
