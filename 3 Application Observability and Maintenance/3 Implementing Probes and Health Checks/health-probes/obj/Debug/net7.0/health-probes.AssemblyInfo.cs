@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("health-probes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f76d8065284e076534c9794231469a0a05da642")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d66f24d66ec3c30682edf6772104fe39dadadcfc")]
 [assembly: System.Reflection.AssemblyProductAttribute("health-probes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("health-probes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

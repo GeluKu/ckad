@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj": {}
+    "/home/geluku/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj": {}
   },
   "projects": {
-    "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj": {
+    "/home/geluku/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
+        "projectUniqueName": "/home/geluku/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
         "projectName": "health-probes",
-        "projectPath": "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
-        "packagesPath": "/home/gelu/.nuget/packages/",
-        "outputPath": "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/obj/",
+        "projectPath": "/home/geluku/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
+        "packagesPath": "/home/geluku/.nuget/packages/",
+        "outputPath": "/home/geluku/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/gelu/.nuget/NuGet/NuGet.Config"
+          "/home/geluku/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/RuntimeIdentifierGraph.json"
         }
       }
     }

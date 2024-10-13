@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gGpv83l5Fuapk643qJd7g1YediAq/qqulTT+KuNEVLuUO/Rs2RifoBGOUF5ECmuqPYqKlBNvWirttQ6nxxokFg==",
+  "dgSpecHash": "9/ewUFfizl6ytKcRTbRzdTamoLI7TgMF+SbdxI1gYoWkRJAkG4Klrd3VoUZ8mBIWoAEpQueR5NhZJR0+X7AJ9g==",
   "success": true,
-  "projectFilePath": "/home/gelu/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
+  "projectFilePath": "/home/geluku/DEV/Kubernetes/ckad/3 Application Observability and Maintenance/3 Implementing Probes and Health Checks/health-probes/health-probes.csproj",
   "expectedPackageFiles": [
-    "/home/gelu/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/home/gelu/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "/home/gelu/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
+    "/home/geluku/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/geluku/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/geluku/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }
