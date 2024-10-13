@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: busybox-probes
+  name: busybox-probes
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: busybox-probes
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: busybox-probes
+    spec:
+      containers:
+      - image: k8s.gcr.io/busybox
+        name: busybox
+        command:
+          - /bin/sh
+          - -c
+          - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 120
+        readinessProbe:
+          exec:
+            command:
+              - cat
+              - /tmp/healthy
+          periodSeconds: 10
+          failureThreshold: 30
+        livenessProbe:
+          exec:
+            command:
+              - cat
+              - /tmp/healthy
+          periodSeconds: 5
+          initialDelaySeconds: 5            
+        resources: {}
+status: {}

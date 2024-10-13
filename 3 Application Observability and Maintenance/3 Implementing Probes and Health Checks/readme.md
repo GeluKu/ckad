@@ -68,7 +68,7 @@ Answers to the question tasks can be found in the `answers.md` file.
 
 1. Create a new `busy-box.pod.yml` file with the following features:
     - `Name`: busybox-probes
-    - `Image`: k8s.gcr.io/busybox
+    - `Image`: busybox
     - `Args`: /bin/sh -c touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 120
     - `Readiness probe`: Execute the command `cat /tmp/healthy`. Add a failure threshold value of `30` and a period seconds value of `10`.
     - `Liveness probe`: Execute the command `cat /tmp/healthy`. Add an initial delay value of `5` seconds and a period seconds value of `5`.
