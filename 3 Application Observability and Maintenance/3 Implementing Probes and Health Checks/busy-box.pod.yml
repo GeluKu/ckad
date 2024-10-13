@@ -18,12 +18,12 @@ spec:
         app: busybox-probes
     spec:
       containers:
-      - image: k8s.gcr.io/busybox
+      - image: busybox
         name: busybox
-        command:
-          - /bin/sh
-          - -c
-          - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 120
+        args:
+        - /bin/sh
+        - -c
+        - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 120
         readinessProbe:
           exec:
             command:
